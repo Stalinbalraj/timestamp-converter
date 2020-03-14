@@ -3,7 +3,7 @@
 	"displayName": "Timestamp converter",
 	"description": "Convert epoch to human-readable date and vice versa",
 	"publisher": "Stalinbalraj",
-	"icon": "images/icon.png",
+	"icon": "/icon.png",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.43.0"
