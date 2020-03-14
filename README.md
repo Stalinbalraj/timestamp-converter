@@ -15,7 +15,7 @@ Epoch times can be converted to a human readable timestamp.
 
 For example :
 
-![hover on the timestamp](example.JPG)
+![hover on the timestamp](images/example.JPG)
 
 
 
