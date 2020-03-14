@@ -2,6 +2,7 @@
 	"name": "timestamp-converter",
 	"displayName": "Timestamp converter",
 	"description": "Convert epoch to human-readable date and vice versa",
+	"publisher": "Stalinbalraj",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.43.0"
@@ -10,14 +11,15 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"*",
+		"onCommand:extension.timestampConverter"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.timestampConverter",
+				"title": "Timestamp converter"
 			}
 		]
 	},
@@ -41,5 +43,9 @@
 		"mocha": "^7.0.1",
 		"typescript": "^3.7.5",
 		"vscode-test": "^1.3.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Stalinbalraj/timestamp-converter"
 	}
 }
