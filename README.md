@@ -15,9 +15,9 @@ Epoch times can be converted to a human readable timestamp.
 
 For example :
 
-\!\[hover on the timestamp\]\(images/example.JPG\)
+![hover on the timestamp](images/example.JPG)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+
 
 
 ## Release Notes
